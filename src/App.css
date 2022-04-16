@@ -1,0 +1,55 @@
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 25px;
+  position: relative;
+  font-family: 'Sigmar One', cursive;
+  font-size: 4rem;
+  text-align: center;
+  color: #f09707;
+  text-shadow: 3px 3px #c77c02;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav > a {
+  margin-bottom: 20px;
+}
+.css-button-3d--sky {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #3a86ff;
+  box-shadow: 0 5px #4433ff;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.css-button-3d--sky:hover {
+  box-shadow: 0 3px #4433ff;
+  top: 1px;
+}
+.css-button-3d--sky:active {
+  box-shadow: 0 0 #4433ff;
+  top: 5px;
+}
