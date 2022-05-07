@@ -103,7 +103,7 @@ Deck.prototype.drawCards = function (n) {
 */
 function fullDeck() {
     return [
-     {suit: "H", value: "1"}, 
+     {suit: "H", value: "A"}, 
      {suit: "H", value: "2"},
      {suit: "H", value: "3"},
      {suit: "H", value: "4"},
@@ -116,7 +116,7 @@ function fullDeck() {
      {suit: "H", value: "J"},
      {suit: "H", value: "Q"},
      {suit: "H", value: "K"},
-     {suit: "D", value: "1"}, 
+     {suit: "D", value: "A"}, 
      {suit: "D", value: "2"},
      {suit: "D", value: "3"},
      {suit: "D", value: "4"},
@@ -129,7 +129,7 @@ function fullDeck() {
      {suit: "D", value: "J"},
      {suit: "D", value: "Q"},
      {suit: "D", value: "K"},
-     {suit: "C", value: "1"}, 
+     {suit: "C", value: "A"}, 
      {suit: "C", value: "2"},
      {suit: "C", value: "3"},
      {suit: "C", value: "4"},
@@ -142,7 +142,7 @@ function fullDeck() {
      {suit: "C", value: "J"},
      {suit: "C", value: "Q"},
      {suit: "C", value: "K"},
-     {suit: "S", value: "1"}, 
+     {suit: "S", value: "A"}, 
      {suit: "S", value: "2"},
      {suit: "S", value: "3"},
      {suit: "S", value: "4"},
