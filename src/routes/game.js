@@ -26,9 +26,13 @@ export default function Game() {
             </nav>
 
             {/* current hand */}
-            <section style={{padding: "1rem"}}>
+            <section className="hand-container" style={{padding: "1rem"}}>
                 {hand.map((card)=>{
-                    return <Card alt="1" card={card.suit + card.value} key={card.suit + card.value}/>
+                    return <div className="card-container">
+                        <span className="held-text">Held</span>
+                        <Card alt="1" card={card.suit + card.value} key={card.suit + card.value}/>
+                    </div>
+                    
                 })}
             </section>
             {/* buttons */}
