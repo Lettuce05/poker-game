@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Deck from '../Utils/Deck'
+import Button from '../components/Button/Button'
+import { Link } from 'react-router-dom'
+import '../components/Game/Game.css'
+
 export default function Game() {
-    let deck1 = new Deck();
-    deck1.shuffleDeck();
-    let cards = deck1.drawCards(5);
-    console.log("cards drawn: ", cards);
-    console.log("deck: ", deck1.cards);
+    let [hand, setHand] = useState([]);
+    let [round, setRound] = useState(0);
+    let [deck, setDeck] = useState(new Deck());
+    deck.shuffleDeck();
+    
     return (
-        <main style={{ padding: "1rem 0" }}>
-            <h2>Game</h2>
+        <main>
+            <nav className="game-nav">
+                <Link className="btn btn-orange" to="/settings">Settings</Link>
+                <Link className="btn btn-orange" to="/">Home</Link>
+            </nav>
+            {/* navigation */}
+            {/* current hand */}
+            {/* buttons */}
         </main>
     )
 }

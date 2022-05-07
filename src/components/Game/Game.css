@@ -1,0 +1,22 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #4b8900;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.game-nav {
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.game-nav > a{
+    margin-right: 10px;
+}

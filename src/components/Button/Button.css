@@ -1,0 +1,22 @@
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    font-family: BebasNeue;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-orange{
+    background: rgb(127,1,0);
+    background: linear-gradient(0deg, rgba(127,1,0,1) 0%, rgba(218,54,0,1) 35%, rgba(255,124,0,1) 100%); 
+    color: white;
+}
+
+.btn-green {
+    background: rgb(13,110,0);
+    background: linear-gradient(0deg, rgba(13,110,0,1) 0%, rgba(132,192,0,1) 35%, rgba(203,242,0,1) 100%); 
+    color: white;
+}

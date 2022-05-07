@@ -1,16 +1,18 @@
-import { Link } from "react-router-dom";
+import Button from './components/Button/Button'
+import { Link } from 'react-router-dom';
 import './App.css';
+import './components/Button/Button.css';
+
 
 
 export default function App() {
   return (
     <main className="App">
-       <h1 className="title">3-Way Poker</h1>
+       <h1 className="title">Poker</h1>
       <nav className="nav">
-        <Link className="css-button-3d--sky" to="/game">Start Game</Link>
-        <Link className="css-button-3d--sky" to="/highscores">Highscores</Link>
-        <Link className="css-button-3d--sky" to="/settings">Settings</Link>
-
+        <Link className="btn btn-green" to="/game">Play</Link>
+        <Link className="btn btn-orange" to="/highscores">Highscores</Link>
+        <Link className="btn btn-orange" to="/settings">Settings</Link>
       </nav>
 
     </main>
